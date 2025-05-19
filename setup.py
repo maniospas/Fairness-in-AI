@@ -28,11 +28,11 @@ def readme():
 
 
 base_packages = [
-    'pandas==1.2.4', 
-    'numpy==1.19.5', 
-    'spacy==3.2.1', 
-    'transformers==4.6.1', 
-    'tensorflow==2.4.1',
+    'pandas', 
+    'numpy', 
+    'spacy', 
+    'transformers', 
+    'tensorflow',
 ]
 
 setup(
