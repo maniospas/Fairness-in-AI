@@ -37,7 +37,7 @@ base_packages = [
 
 setup(
     name="Dbias",
-    version="0.0.9",
+    version="0.0.10",
     description="Detect, Recognize and de-bias textual data.",
     long_description=readme(),
     long_description_content_type="text/markdown",
