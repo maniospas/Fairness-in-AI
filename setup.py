@@ -30,14 +30,14 @@ def readme():
 base_packages = [
     'pandas', 
     'numpy', 
-    'spacy', 
-    'transformers', 
-    'tensorflow',
+    'spacy[tf-nightly]',  
+    'tf-nightly',
+    'transformers[tf-nightly]',
 ]
 
 setup(
     name="Dbias",
-    version="0.0.10",
+    version="0.0.11",
     description="Detect, Recognize and de-bias textual data.",
     long_description=readme(),
     long_description_content_type="text/markdown",
