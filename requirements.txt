@@ -1,6 +1,5 @@
 pandas
 numpy
-tf-nightly
+transformers[tf-nightly]
 spacy
-transformers
 #https://huggingface.co/d4data/en_pipeline/resolve/main/en_pipeline-any-py3-none-any.whl
